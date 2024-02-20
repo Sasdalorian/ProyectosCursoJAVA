@@ -1,0 +1,20 @@
+h1, h2 {
+  text-align: center;
+}
+
+.cv__img {
+  display: flex;
+  justify-content: center;
+}
+.containers {
+  margin: 0 20rem;
+}
+
+footer {
+  text-align: center;
+}
+
+.footer__img {
+  height: 2rem;
+  padding-right: 1rem;
+}
