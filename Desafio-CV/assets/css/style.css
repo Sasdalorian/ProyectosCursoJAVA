@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
 }
 .cv__img {
@@ -13,10 +13,8 @@ h1, h2 {
 .containers {
   margin: 0 20rem;
 }
-
-.containers__D {
-  display: flex;
-  gap: 5rem;
+li {
+  margin-left: 2rem;
 }
 footer {
   text-align: center;
