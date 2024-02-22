@@ -1,0 +1,54 @@
+:root {
+  --negro: #000;
+  --blanco: #fff;
+  --oscuromarron: #1e1a13;
+
+  --ralewayLight: normal normal 300 16px/19px Raleway;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background-color: var(--negro);
+  color: var(--blanco);
+  height: 73px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+
+}
+.header_img {
+  top: 73px;
+  height: 727px;
+  object-fit: cover;
+}
+
+.banner1 {
+  background-color: var(--negro);
+  color: var(--blanco);
+}
+.banner1__div {
+  height: 348px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 10%;
+  gap: 10rem;
+}
+
+.banner1_img {
+  width: 100%;
+  max-height: 237px;
+}
+.banner1__p {
+  
+  font: var(--ralewayLight);
+}
