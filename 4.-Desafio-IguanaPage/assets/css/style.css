@@ -20,20 +20,26 @@ nav {
   align-items: center;
 }
 
-.raleway {
+/* FUENTES */
+.ralewayh1 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-size: 50px;
   font-style: normal;
 }
-
-.ralewayLight {
+.desc-section {
+  font: normal normal 300 16px/19px Raleway;
+}
+.ralewayh2 {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 19;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 40px;
   font-style: normal;
+}
+.banner2_p{
+  font: normal normal 300 25px/30px Raleway;
 }
 
 .header__img {
