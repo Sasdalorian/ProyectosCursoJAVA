@@ -22,10 +22,10 @@ let nota3Js = document.getElementById("nota3Js");
 let promedioJs = document.getElementById("promedioJs");
 
 /* INGRESO DE NOMBRE */
-// let newName = prompt("Por favor, ingrese su nombre");
-// if (newName !== null && newName !== "") {
-//   userName.textContent = newName;
-// }
+let newName = prompt("Por favor, ingrese su nombre");
+if (newName !== null && newName !== "") {
+  userName.textContent = newName;
+}
 
 /* CALCULO DE PROMEDIO */
 function promedio(nota1, nota2, nota3) {
