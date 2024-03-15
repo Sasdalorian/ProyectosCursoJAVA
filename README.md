@@ -3,4 +3,4 @@
 
 <p aling="left">En este proyecto se llevó a cabo la subdivisión de ramas en el repositorio de GitHub, asignando a cada desafío completado en el progreso del curso su propia rama correspondiente.<p>
 
-![Ejemplo de imagen](imgBranching.jpg)
+![Ejemplo de imagen](/8-Desafio-Branching/imgBranching.png)
