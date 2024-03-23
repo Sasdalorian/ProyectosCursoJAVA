@@ -1,0 +1,85 @@
+:root {
+  --negro: #000;
+}
+
+body {
+  background-color: var(--negro);
+  color: var(--bs-light);
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+h1, h2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: var(--bs-light);
+}
+
+.nav-bg {
+  background-color: var(--negro);
+  -moz-transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#carouselExample img {
+  max-height: 50rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.btn {
+  color: var(--bs-light);
+}
+
+.card {
+  width: 18rem;
+}
+
+.card img {
+  max-height: 10rem;
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: var(--bs-info);
+  color: var(--bs-light);
+}
+
+#quienes_somos .card-group {
+  border-radius: 0;
+}
+
+#quienes_somos .card{
+  border-radius: 0;
+  border: none;
+}
+
+#quienes_somos .card-body {
+  background-color: var(--negro);
+  color: var(--bs-light)
+}
+
+#quienes_somos .card-header {
+  background-color: var(--bs-info);
+  color: var(--bs-light);
+  border-radius: 0;
+}
+
+footer {
+  background-color: var(--bs-info);
+}
+
+footer p {
+ font-size: 1.2rem;
+}
